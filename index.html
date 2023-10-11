@@ -14,102 +14,104 @@
 
 <body>
 
-  <header>
-    <div title="Título y navegación">
-      <div>
-        <h1>Lista de la compra</h1>
+  <div title="main content">
+
+    <header>
+      <div title="Título y navegación">
+        <div>
+          <h1>Lista de la compra</h1>
+        </div>
+
+        <div>
+          <nav>
+            <p>Principal</p>
+            <span>
+              <a href="index.html">Lista</a>
+            </span>
+            <p>Acerca de</p>
+          </nav>
+        </div>
       </div>
 
-      <div>
-        <nav>
-          <p>Principal</p>
-          <span>
-            <p>Lista</p>
-          </span>
-          <p>Acerca de</p>
-        </nav>
+
+      <div title="Boton de añadir">
+
+        <a href="new-item.html"><img src="plus-button.png" alt="Botón circular"></a>
+        <p title="purchased items">2/3 Comprados</p>
+
       </div>
-    </div>
+    </header>
 
+    <main>
 
-    <div title="Boton de añadir">
+      <div>
+        <section class="ingredient-container">
 
-      <a href="new-item.html"><img src="plus-button.png" alt="Botón circular"></a>
-      <p title="purchased items">2/3 Comprados</p>
+          <section class="checkbox-tag">
+            <div title="item-1">
+              <input type="checkbox" name="item-checked" id="item-checked-bread">
+              <label for="item-checked-bread">Pan</label>
+            </div>
+            <p>0.75€</p>
+          </section>
 
-    </div>
-  </header>
+          <aside>
+            <img src="x-icon.png" alt="Ícono x.">
+          </aside>
 
-  <main>
-
-    <div>
-      <section class="ingredient-container">
-
-        <section class="checkbox-tag">
-          <div title="item-1">
-            <input type="checkbox" name="item-checked" id="item-checked-bread">
-            <label for="item-checked-bread">Pan</label>
-          </div>
-          <p>0.75€</p>
         </section>
 
-        <aside>
-          <img src="x-icon.png" alt="Ícono x.">
-        </aside>
+        <section class="ingredient-container">
 
-      </section>
+          <section class="checkbox-tag">
+            <div title="item-2">
+              <input type="checkbox" name="item-checked" id="item-checked-sugar">
+              <label for="item-checked-sugar">Azúcar</label>
+            </div>
+            <p></p>
+          </section>
 
-      <section class="ingredient-container">
+          <aside>
+            <img src="x-icon.png" alt="Ícono x.">
+          </aside>
 
-        <section class="checkbox-tag">
-          <div title="item-2">
-            <input type="checkbox" name="item-checked" id="item-checked-sugar">
-            <label for="item-checked-sugar">Azúcar</label>
-          </div>
-          <p></p>
         </section>
 
-        <aside>
-          <img src="x-icon.png" alt="Ícono x.">
-        </aside>
+        <section class="ingredient-container">
 
-      </section>
+          <section class="checkbox-tag">
+            <div title="item-3">
+              <input type="checkbox" name="item-checked" id="item-checked-milk">
+              <label for="item-checked-milk">Leche</label>
+            </div>
+            <p>1.20€</p>
+          </section>
 
-      <section class="ingredient-container">
+          <aside>
+            <img src="x-icon.png" alt="Ícono x.">
+          </aside>
 
-        <section class="checkbox-tag">
-          <div title="item-3">
-            <input type="checkbox" name="item-checked" id="item-checked-milk">
-            <label for="item-checked-milk">Leche</label>
-          </div>
-          <p>1.20€</p>
         </section>
+      </div>
 
-        <aside>
-          <img src="x-icon.png" alt="Ícono x.">
-        </aside>
+      <div title="final-cost">
+        <p title="final-cost-sum">195€</p>
+      </div>
 
-      </section>
-    </div>
+    </main>
 
-    <div title="final-cost">
-      <p title="final-cost-sum">195€</p>
-    </div>
+    <footer>
 
-  </main>
+      <p>
+        <a href="http://jigsaw.w3.org/css-validator/check/referer">
+          <img style="border:0;width:88px;height:31px" src="http://jigsaw.w3.org/css-validator/images/vcss"
+            alt="Valid CSS!" />
+        </a>
+      </p>
 
-  <footer>
+    </footer>
 
-    <p>
-      <a href="http://jigsaw.w3.org/css-validator/check/referer">
-        <img style="border:0;width:88px;height:31px" src="http://jigsaw.w3.org/css-validator/images/vcss"
-          alt="Valid CSS!" />
-      </a>
-    </p>
-
-  </footer>
-
-
+  </div>
 
 
 </body>

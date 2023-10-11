@@ -12,8 +12,20 @@
   padding: 1.5rem 0.8rem;
 }
 
+[title="main content"] {
+  max-width: 750px;
+}
+
 h1 {
   font-size: 30px;
+  font-weight: bolder;
+}
+
+h2 {
+  font-size: 33px;
+  font-weight: bold;
+  padding: 0.8rem;
+  margin-bottom: 1rem;
 }
 
 nav {
@@ -27,7 +39,7 @@ nav > p {
 
 main {
   background-color: #d5bca7;
-  padding-top: 3rem;
+  padding-top: 2.5rem;
 }
 
 footer {
@@ -38,6 +50,11 @@ footer {
 
 span {
   font-weight: bold;
+}
+
+span > a {
+  text-decoration: none;
+  color: black;
 }
 
 [class="checkbox-tag"]:hover {
@@ -75,6 +92,17 @@ span {
   padding: 1.5rem;
 }
 
+[type="text"] {
+  background-color: transparent;
+  border-style: solid;
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  border-width: thin;
+  width: 20rem;
+  border-color: #561986;
+}
+
 [title="final-cost"] {
   text-align: right;
   padding: 0.8rem;
@@ -91,6 +119,18 @@ span {
   font-size: 35px;
 }
 
+[type="submit"] {
+  border-radius: none;
+  background-color: #516aa7;
+  border-style: none;
+  color: white;
+  padding: 0.5rem;
+}
+
+[title="submit button"] {
+  padding: 0.8rem 0.8rem 5rem 0.8rem;
+}
+
 .ingredient-container {
   display: flex;
   justify-content: space-between;
@@ -103,4 +143,11 @@ span {
   width: 100%;
   justify-content: space-between;
   align-items: center;
+}
+
+.form-container {
+  display: grid;
+  padding-left: 0.8rem;
+  padding-right: 0.8rem;
+  padding-bottom: 1rem;
 }
